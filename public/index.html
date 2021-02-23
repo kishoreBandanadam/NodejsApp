@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <title>Create Case</title>
+</head>
+<body>
+  <form action="/createCase" method="POST">
+      
+    <ul class="form-style-1">
+        <H1>Create Case</H1>
+        <li>
+            <label>Email <span class="required">*</span></label>
+            <input type="email" name="email" value="test@mail.com" class="field-long" />
+        </li>
+        <li>
+            <label>Subject <span class="required">*</span></label>
+            <input type="text" name="subject" value="Sample Subject" class="field-long" />
+        </li>
+        <li>
+            <label>Description <span class="required">*</span></label>
+            <textarea name="description" id="description" class="field-long field-textarea"></textarea>
+        </li>
+        <li>
+            <input type="submit" value="Submit" />
+        </li>
+    </ul>
+    </form>
+</body>
+</html>
